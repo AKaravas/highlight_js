@@ -61,7 +61,7 @@ For editors
 4. Switch to **Highlight.js**
 5. Choose your content element
 
-For editors
+Additional info
 ------------------
 
 Since Highlight.js supports a load of languages, i can not include them all at once so if you want more styles or languages to be included, create an issue in order to get them asap included.
