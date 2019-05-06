@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<p><strong class="foundation_title">{cTypeTitle}</strong></p>
+<table class="foundation_table one_table">
+    <tbody>
+        <tr>
+            <f:if condition="{highlightJs.0.title}">
+                    <th>Title</th>
+            </f:if>
+            <th>Language</th>
+            <th>Disable highlighting</th>
+        </tr>
+        <tr>
+            <f:if condition="{highlightJs.0.title}">
+                <td>{highlightJs.0.title}</td>
+            </f:if>
+            <td>{highlightJs.0.select_language}</td>
+            <td>
+                <f:if condition="{highlightJs.0.disable_highlighting} === 0">
+                    <f:then>
+                        &#10008;
+                    </f:then>
+                    <f:else>
+                        &#10004;
+                    </f:else>
+                </f:if>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+</html>

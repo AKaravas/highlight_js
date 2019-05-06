@@ -1,0 +1,20 @@
+
+plugin.highlight_js {
+    view {
+        #cat=plugin.highlight_js/file; type=string; label= Path to template root (FE)
+        templateRootPath = EXT:highlight_js/Resources/Private/Templates/
+        #cat=plugin.highlight_js/file; type=string; label= Path to template partials (FE)
+        partialRootPath = EXT:highlight_js/Resources/Private/Partials/
+        #cat=plugin.highlight_js/file; type=string; label= Path to template layouts (FE)
+        layoutRootPath = EXT:highlight_js/Resources/Private/Layouts/
+    }
+    settings {
+
+    }
+}
+HighlightJsPublic = EXT:highlight_js/Resources/Public
+HighlightJsPublicRelative = /typo3conf/ext/highlight_js/Resources/Public
+HighlightJsPrivate = EXT:highlight_js/Resources/Private
+
+# cat=plugin.highlight_js/color/210; type=options[agate,atom-one-dark,atom-one-light,dracula,github,monokai-sublime,rainbow,vs]; label= Select code style
+layout_style = monokai-sublime

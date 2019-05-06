@@ -1,0 +1,22 @@
+tt_content {
+    highlight_js < lib.contentElement
+    highlight_js {
+        templateRootPaths.10 = {$HighlightJsPrivate}/Templates/
+        partialRootPaths.10 = {$HighlightJsPrivate}/Partials/
+        layoutRootPaths.10 = {$HighlightJsPrivate}/Layouts/
+        templateName = Highlight.html
+        dataProcessing {
+            670 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+            670 {
+                table = highlight_js
+                pidInList = this
+                where.field = uid
+                where.dataWrap = tt_content = |
+
+                as = highlightJs
+            }
+        }
+    }
+}
+
+

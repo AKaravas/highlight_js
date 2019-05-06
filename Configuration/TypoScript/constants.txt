@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:highlight_js/Configuration/TypoScript/Constants/" extensions="typoscript">
