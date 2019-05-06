@@ -1,11 +1,11 @@
 {
   "name": "akaravas/highlight-js",
   "type": "typo3-cms-extension",
-  "description": "Create a highlight.js element on TYPO3 as normal content element ",
+  "description": "Create a highlight.js element on TYPO3 as normal content element",
   "keywords": [
     "TYPO3",
     "extension",
-    "highlight_js",
+    "highlight.js",
     "code"
   ],
   "authors": [
@@ -25,7 +25,7 @@
     }
   },
   "replace": {
-    "highlight_js": "self.version",
+    "highlight-js": "self.version",
     "typo3-ter/highlight-js": "self.version"
   },
   "minimum-stability": "dev",
