@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-05-02T14:10:33Z" product-name="highlight_js">
+        <header/>
+        <body>
+
+            <!--Foundation Zurb Global-->
+            <trans-unit id="highlightJs" xml:space="preserve">
+                <source>Highlight.js</source>
+            </trans-unit>
+            <trans-unit id="highlightJs_title" xml:space="preserve">
+                <source>Highlight JS Code</source>
+            </trans-unit>
+            <trans-unit id="highlightJs_description" xml:space="preserve">
+                <source>Create a frontend code as content element</source>
+            </trans-unit>
+            <trans-unit id="title" xml:space="preserve">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="disable_highlighting" xml:space="preserve">
+                <source>Disable Highlighting</source>
+            </trans-unit>
+            <trans-unit id="code" xml:space="preserve">
+                <source>Code</source>
+            </trans-unit>
+            <trans-unit id="select_language" xml:space="preserve">
+                <source>Select language</source>
+            </trans-unit>
+            <trans-unit id="select_style" xml:space="preserve">
+                <source>Select style</source>
+            </trans-unit>
+
+            <!--Language Selection-->
+
+            <!-- #A -->
+            <trans-unit id="apache" xml:space="preserve">
+                <source>Apache</source>
+            </trans-unit>
+            <!-- #B -->
+            <trans-unit id="bash" xml:space="preserve">
+                <source>Bash</source>
+            </trans-unit>
+            <!-- #C -->
+            <trans-unit id="cs" xml:space="preserve">
+                <source>C#</source>
+            </trans-unit>
+            <trans-unit id="cpp" xml:space="preserve">
+                <source>C++</source>
+            </trans-unit>
+            <trans-unit id="css" xml:space="preserve">
+                <source>CSS</source>
+            </trans-unit>
+            <!-- #D -->
+            <!-- #E -->
+            <!-- #F -->
+            <!-- #G -->
+            <!-- #H -->
+            <trans-unit id="html_xml" xml:space="preserve">
+                <source>HTML / XML</source>
+            </trans-unit>
+            <!-- #I -->
+            <!-- #J -->
+            <trans-unit id="java" xml:space="preserve">
+                <source>Java</source>
+            </trans-unit>
+            <trans-unit id="javascript" xml:space="preserve">
+                <source>JavaScript</source>
+            </trans-unit>
+            <trans-unit id="json" xml:space="preserve">
+                <source>JSON</source>
+            </trans-unit>
+            <!-- #K -->
+            <!-- #L -->
+            <trans-unit id="less" xml:space="preserve">
+                <source>Less</source>
+            </trans-unit>
+            <!-- #M -->
+            <!-- #N -->
+            <trans-unit id="nginx" xml:space="preserve">
+                <source>Nginx</source>
+            </trans-unit>
+            <!-- #O -->
+            <trans-unit id="objectivec" xml:space="preserve">
+                <source>Objective-C</source>
+            </trans-unit>
+            <!-- #P -->
+            <trans-unit id="php" xml:space="preserve">
+                <source>PHP</source>
+            </trans-unit>
+            <trans-unit id="python" xml:space="preserve">
+                <source>Python</source>
+            </trans-unit>
+            <!-- #Q -->
+            <!-- #R -->
+            <!-- #S -->
+            <trans-unit id="scss" xml:space="preserve">
+                <source>SCSS</source>
+            </trans-unit>
+            <trans-unit id="sql" xml:space="preserve">
+                <source>SQL</source>
+            </trans-unit>
+            <trans-unit id="stylus" xml:space="preserve">
+                <source>Stylus</source>
+            </trans-unit>
+            <trans-unit id="swift" xml:space="preserve">
+                <source>SWIFT</source>
+            </trans-unit>
+            <!-- #T -->
+            <trans-unit id="twig" xml:space="preserve">
+                <source>Twig</source>
+            </trans-unit>
+            <!-- #U -->
+            <!-- #V -->
+            <!-- #W -->
+            <!-- #X -->
+            <!-- #Y -->
+            <trans-unit id="yaml" xml:space="preserve">
+                <source>Yaml</source>
+            </trans-unit>
+            <!-- #Z -->
+        </body>
+    </file>
+</xliff>

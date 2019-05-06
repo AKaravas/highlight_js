@@ -1,0 +1,10 @@
+plugin.highlight_js {
+    view {
+        templateRootPaths.0 = EXT:highlight_js/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.highlight_js.view.templateRootpath}
+        partialRootPaths.0 = EXT:highlight_js/Resources/Private/Partials//
+        partialRootPaths.1 = {$plugin.highlight_js.view.partialRootpath}
+        layoutRootPaths.0 = EXT:highlight_js/Resources/Private/Layouts//
+        layoutRootPaths.1 = {$plugin.highlight_js.view.layoutRootpath}
+    }
+}

@@ -1,0 +1,17 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+             data-namespace-typo3-fluid="true">
+
+<h2>{highlightJs.0.data.title}</h2>
+<f:if condition="{highlightJs.0.data.disable_highlighting} != 1">
+    <f:then>
+        <pre>
+            <code class="{highlightJs.0.data.select_language}">{highlightJs.0.data.code}</code>
+        </pre>
+    </f:then>
+    <f:else>
+        <pre>
+            <code class="nohighlight">{highlightJs.0.data.code}</code>
+        </pre>
+    </f:else>
+</f:if>
+</html>

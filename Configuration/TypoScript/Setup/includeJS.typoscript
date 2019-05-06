@@ -1,0 +1,16 @@
+page.includeJS {
+    highlightJS = {$HighlightJsPublic}/JavaScript/highlight.pack.js
+    highlightJS {
+        forceOnTop                  = 0
+        external                    = 0
+        disableCompression          = 0
+        excludeFromConcatenation    = 0
+    }
+    highlightInit = {$HighlightJsPublic}/JavaScript/init.js
+    highlightInit {
+        forceOnTop                  = 0
+        external                    = 0
+        disableCompression          = 0
+        excludeFromConcatenation    = 0
+    }
+}

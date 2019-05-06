@@ -1,0 +1,9 @@
+page.includeCSS {
+    highlightCSS = {$HighlightJsPublic}/Css/{$layout_style}.css
+    highlightCSS {
+        forceOnTop                  = 0
+        external                    = 0
+        disableCompression          = 0
+        excludeFromConcatenation    = 0
+    }
+}

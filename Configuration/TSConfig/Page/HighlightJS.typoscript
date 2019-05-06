@@ -1,0 +1,16 @@
+mod.wizards.newContentElement.wizardItems.highlightJs {
+    header = LLL:EXT:highlight_js/Resources/Private/Language/locallang.xlf:highlightJs
+    after = common
+    elements {
+        highlight_js {
+            iconIdentifier = HighlightIcon
+            title = LLL:EXT:highlight_js/Resources/Private/Language/locallang.xlf:highlightJs_title
+            description = LLL:EXT:highlight_js/Resources/Private/Language/locallang.xlf:highlightJs_description
+            tt_content_defValues {
+                CType = highlight_js
+            }
+        }
+    }
+    show := addToList(highlight_js)
+}
+RTE.default.preset = highlight_js_presets
