@@ -21,13 +21,17 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\HighlightJs\\": "Classes"
+      "Vendor\\HighlightJs\\": "Classes/"
     }
   },
   "replace": {
     "highlight_js": "self.version",
-    "typo3-ter/highlight_js": "self.version"
+    "typo3-ter/highlight-js": "self.version"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
 }
