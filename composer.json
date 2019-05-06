@@ -1,0 +1,34 @@
+{
+  "name": "AKaravas/highlight_js",
+  "type": "typo3-cms-extension",
+  "description": "Create a highlight.js element on TYPO3 as normal content element ",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "highlight_js",
+    "code"
+  ],
+  "authors": [
+    {
+      "name": "Aristeidis Karavas",
+      "role": "Developer"
+    }
+  ],
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+    "typo3/cms-core": "^8.7.13|| ^9.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\HighlightJs\\": "Classes"
+    }
+  },
+  "replace": {
+    "highlight_js": "self.version",
+    "typo3-ter/highlight_js": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  }
+}
