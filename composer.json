@@ -24,10 +24,6 @@
       "Vendor\\HighlightJs\\": "Classes/"
     }
   },
-  "replace": {
-    "highlight-js": "self.version",
-    "typo3-ter/highlight-js": "self.version"
-  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
