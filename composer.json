@@ -27,7 +27,5 @@
   "replace": {
     "highlight_js": "self.version",
     "typo3-ter/highlight-js": "self.version"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
