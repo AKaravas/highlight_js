@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\HighlightJs\Hooks\PageLayoutView;
+namespace Karavas\HighlightJs\Hooks\PageLayoutView;
 
 use TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInterface;
 use TYPO3\CMS\Backend\View\PageLayoutView;
@@ -41,7 +41,7 @@ class HighlightPreviewRenderer implements PageLayoutViewDrawItemHookInterface
                 ->where(
                     $queryBuilder->expr()->eq('tt_content', $queryBuilder->createNamedParameter($row['uid'], \PDO::PARAM_INT)),
                     $queryBuilder->expr()->eq('hidden', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT)),
-                    $queryBuilder->expr()->eq('deleted', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT)),
+                    $queryBuilder->expr()->eq('deleted', $queryBuilder->createNamedParameter(0, \PDO::PARAM_INT))
                 )
                 ->execute()
                 ->fetchAll();

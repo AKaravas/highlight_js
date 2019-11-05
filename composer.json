@@ -1,5 +1,5 @@
 {
-  "name": "akaravas/highlight-js",
+  "name": "karavas/highlight-js",
   "type": "typo3-cms-extension",
   "description": "Create a highlight.js element on TYPO3 as normal content element",
   "keywords": [
@@ -15,13 +15,14 @@
       "email" : "aristeidis.karavas@gmail.com"
     }
   ],
+  "version": "2.0.0",
   "license": ["GPL-2.0-or-later"],
   "require": {
-    "typo3/cms-core": "^8.7.13|| ^9.5.0"
+    "typo3/cms-core": "^8.7.4"
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\HighlightJs\\": "Classes/"
+      "Karavas\\HighlightJs\\": "Classes/"
     }
   },
   "replace": {
